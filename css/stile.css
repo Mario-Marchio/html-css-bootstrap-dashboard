@@ -32,6 +32,9 @@
     .online{
         padding-top: 30px;
     }
+    .row .one-line{
+        flex: 1 0 0%;
+    }
 }
 @media screen and (min-width:776px) {
     header.main-header{
@@ -42,6 +45,9 @@
     }
     .online{
         padding-top: 30px;
+    }
+    .one-line{
+        flex: 1 1 100%;
     }
 }
 main{
@@ -63,4 +69,7 @@ main{
 }
 .h-30{
     height: 30px;
+}
+.one-line{
+    flex: 1 1 100%;
 }
