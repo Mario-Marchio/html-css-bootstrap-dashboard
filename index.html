@@ -10,6 +10,44 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <header class="h-70">
+        <nav class="navbar ">
+            <div class="container-fluid ">
+                <img class="img-fluid h-60 d-lg-none" src="img/mobile-logo.png" alt="">
+                <img class="img-fluid  d-none d-lg-block" src="img/logo.svg" alt="">
+                <input class="form-control me-2 bg-lightgrey w-75" type="search" placeholder="Prova a cercare: Lezioni di Laravel" aria-label="Search">
+                <div><i class="text-secondary fa-solid fa-list d-none d-lg-block"></i></div>
+                <div><i class="text-secondary fa-solid fa-circle-question d-none d-lg-block"></i></div>
+                <div><i class="text-secondary fa-solid fa-ellipsis-vertical d-none d-lg-block"></i></div>
+                <div><i class="text-warning fa-solid fa-bell"></i></div>
+            </div>
+
+          </nav>
+    </header>
+    <div class="wrapper">
+        <div class="sidebar text-white">
+            <div>
+                <i class="fa-solid fa-house fs-2 p-4"></i><span class="d-none d-lg-inline-block">Home</span>
+                <i class="fa-solid fa-chart-simple fs-2 p-4"></i><span class="d-none d-lg-inline-block ms-2">Stats</span>
+                <i class="fa-solid fa-signal fs-2 p-4"></i><span class="d-none d-lg-inline-block">Signal</span>
+            </div>
+            <div>
+                <i class="fa-solid fa-gear fs-2 p-4"></i><span class="d-none d-lg-inline-block">Admin</span>
+            </div>
+        </div>
+        <main>
+            <header class="main-header">
+                <div class="py-5 px-3 fs-3 order-md-1">Nuovo studente <span class="border border-white rounded  pb-2 px-2">+</span></div>
+                <div>
+                    <div class=" blaze px-3 fs-3">Boolean <span class="badge rounded-pill bg-pills">Piano Blaze</span></div>
+                    <div class=" px-3 pb-3 fs-3"><span class="badge rounded-pill bg-pills">3 App</span><i class="fa-solid fa-angles-right mr-1"></i><span class="ms-1 badge rounded-pill bg-pills">+</span></div>
+                </div>
+                <div class="fs-3 px-3 online">
+                   <div> Studenti online negli ultimi 30 minuti</div>
+                   <div class="fs-2">125</div>
+                </div>
+            </header>
+        </main>
+    </div>
 </body>
 </html>

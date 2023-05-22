@@ -1,0 +1,59 @@
+.h70{
+    height: 70px;
+}
+.bg-lightgrey{
+    background-color:#E5E5E5;
+}
+.h-60{
+    height:60px ;
+}
+.wrapper{
+    height: calc(100vh - 70px);
+    display: flex;
+}
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 80px;
+    background-image: url(../img/sidebar-bg.png);
+    background-color: #051E34;
+    justify-content: space-between;
+}
+@media screen and (min-width:992px) {
+    .sidebar{
+        flex-basis: 150px;
+    }
+    header.main-header{
+        flex-direction: row;
+    }
+    .blaze{
+        padding-top: 30px;
+    }
+    .online{
+        padding-top: 30px;
+    }
+}
+@media screen and (min-width:776px) {
+    header.main-header{
+        flex-direction: row;
+    }
+    .blaze{
+        padding-top: 30px;
+    }
+    .online{
+        padding-top: 30px;
+    }
+}
+main{
+    flex: 1 1 auto;
+}
+.main-header{
+    background-color: #1B72E8;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.bg-pills{
+    background-color: #165BBA;
+}
