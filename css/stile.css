@@ -46,6 +46,7 @@
 }
 main{
     flex: 1 1 auto;
+    overflow-y: auto;
 }
 .main-header{
     background-color: #1B72E8;
@@ -56,4 +57,10 @@ main{
 }
 .bg-pills{
     background-color: #165BBA;
+}
+.bg-table{
+    background-color: #F7F7F7;
+}
+.h-30{
+    height: 30px;
 }
